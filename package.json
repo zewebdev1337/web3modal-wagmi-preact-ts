@@ -1,0 +1,23 @@
+{
+  "name": "web3modal-preact-ts",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@tanstack/react-query": "^5.40.0",
+    "@web3modal/wagmi": "^4.2.3",
+    "preact": "^10.19.6",
+    "viem": "^2.13.3",
+    "wagmi": "^2.9.8"
+  },
+  "devDependencies": {
+    "@preact/preset-vite": "^2.8.2",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0"
+  }
+}
